@@ -1,1 +1,2 @@
 # CSS-Cheatsheet
+This project was inspired by the University of Utah Full Stack Web Development Bootcamp. All the styling and content was given by them, but the actual code to put it in place came solely from me. They originally gave only a screenshot of what they wanted the page to look like, I looked at that image, copied the exact text, but wrote the code to match the styling. Below, you can see the screenshot of what they want the page to resemble, aswell as a screenshot of what my code creates. 
