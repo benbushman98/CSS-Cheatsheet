@@ -1,0 +1,77 @@
+:root{
+    --backgroundcolor: #2C2C2C;
+    --textcolor: #e866ec99;
+}
+body {
+    background-color: var(--backgroundcolor);
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing:border-box;
+    text-align: center;
+}
+header h1 {
+    width: 100%;
+    color: var(--textcolor);
+}
+header p {
+    color: white;
+}
+
+
+main {
+    color: var(--textcolor);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    border: white dotted;
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 22px;
+
+}
+
+h2 {
+    display: block;
+    position: relative;
+    margin-top: -20px;
+    box-sizing: border-box;
+    border: solid white 2px;
+    background-color: var(--backgroundcolor);
+    border-radius: 6px;
+    width: 90%;
+    justify-content: center;
+    margin-left: 10px;
+}
+    
+.card p {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.card div {
+    display: block;
+    background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+        );
+    margin: 10px;
+}
+.card div pre {
+    font-family: monospace;
+    font-size: 13px;
+    margin: auto;
+    color: white;
+}
