@@ -41,6 +41,11 @@ main {
     margin-bottom: 22px;
 
 }
+@media screen and (max-width: 768px) {
+    .card {
+        width: 350px;
+    }
+}
 
 h2 {
     display: block;
@@ -71,6 +76,7 @@ h2 {
     margin: 10px;
 }
 .card div pre {
+    display: flex;
     font-family: monospace;
     font-size: 12px;
     margin: auto;
