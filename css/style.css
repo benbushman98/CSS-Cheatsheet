@@ -66,6 +66,9 @@ pre {
     white-space: pre;
     display: block;
 }
+section {
+    display: block;
+}
 .card div {
     display: block;
     background-image: linear-gradient(
